@@ -336,6 +336,7 @@ namespace AssetBundleBrowser.AssetBundleModel
             
             bool assetInBundle = false;
             bool sceneError = false;
+            // heartWhy 获取已标有给定 assetBundle 名称的资源的路径    如 texture 下的 bundle 文件路径
             var assets = AssetBundleModel.Model.DataSource.GetAssetPathsFromAssetBundle(m_Name.fullNativeName);
             foreach(var assetName in assets)
             {

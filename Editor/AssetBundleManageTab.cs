@@ -255,12 +255,15 @@ namespace AssetBundleBrowser
                 m_ResizingVerticalSplitterLeft = false;
             }
         }
-
+        /// <summary>
+        /// heartWhy 开始点
+        /// </summary>
+        /// <param name="bundles"></param>
         internal void UpdateSelectedBundles(IEnumerable<AssetBundleModel.BundleInfo> bundles)
         {
             AssetBundleModel.Model.AddBundlesToUpdate(bundles);
-            m_AssetList.SetSelectedBundles(bundles);
-            m_DetailsList.SetItems(bundles);
+            m_AssetList.SetSelectedBundles(bundles); // 右边详情
+            m_DetailsList.SetItems(bundles); // 左下详情
             m_MessageList.SetItems(null);
         }
 

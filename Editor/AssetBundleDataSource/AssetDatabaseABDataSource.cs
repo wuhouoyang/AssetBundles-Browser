@@ -34,6 +34,11 @@ namespace AssetBundleBrowser.AssetBundleDataSource
             return AssetDatabase.GetAssetPathsFromAssetBundle(assetBundleName);
         }
 
+        /// <summary>
+        /// heartWhy 获取 AssetBundle 信息
+        /// </summary>
+        /// <param name="assetPath"></param>
+        /// <returns></returns>
         public string GetAssetBundleName(string assetPath) {
             var importer = AssetImporter.GetAtPath(assetPath);
             if (importer == null) {

@@ -155,6 +155,7 @@ namespace AssetBundleBrowser.AssetBundleModel
 
         internal static string[] ValidateBundleList()
         {
+            // heartWhy 资源数据库中所有的 AssetBundle 名称。
             var bundleList = DataSource.GetAllAssetBundleNames();
             bool valid = true;
             HashSet<string> bundleSet = new HashSet<string>();

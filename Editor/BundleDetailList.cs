@@ -203,7 +203,11 @@ namespace AssetBundleBrowser
                 }
             }
         }
-
+        /// <summary>
+        /// heartWhy 渲染左下
+        /// </summary>
+        /// <param name="bundle"></param>
+        /// <returns></returns>
         internal static TreeViewItem AppendBundleToTree(AssetBundleModel.BundleDataInfo bundle)
         {
             var itemName = bundle.m_Name.fullNativeName;
@@ -272,7 +276,7 @@ namespace AssetBundleBrowser
         }
 
 
-
+        
         internal void SetItems(IEnumerable<AssetBundleModel.BundleInfo> items)
         {
             m_Selecteditems.Clear();
