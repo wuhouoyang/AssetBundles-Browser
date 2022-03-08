@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 960065041
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4fe9f176f9e5697aedf6db594e0c6af1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: aa2a8a8f5c52feedeecae1faf1d6877c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor/AssetBundles-Browser/AbTest/Prefab1.prefab
+Dependencies: []

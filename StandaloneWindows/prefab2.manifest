@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 3728256526
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c08f5b56a8646f6790c9d5d12069ab18
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 30a470a4fde256581b87a92d1b6362ff
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+Assets:
+- Assets/Editor/AssetBundles-Browser/AbTest/alas1.spriteatlas
+- Assets/Editor/AssetBundles-Browser/AbTest/Prefab2.prefab
+Dependencies: []

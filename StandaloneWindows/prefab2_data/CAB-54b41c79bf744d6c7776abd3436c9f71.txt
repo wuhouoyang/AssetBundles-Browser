@@ -1,0 +1,1282 @@
+External References
+path(1): "Resources/unity_builtin_extra" GUID: 0000000000000000f000000000000000 Type: 0
+
+
+ID: -6562632805628259368 (ClassID: 21)     0: Material [size: 130, children: 10 pathID: -852241448]
+    1: 	m_Name "Sprites-Default" (string)
+    5: 	m_Shader  (PPtr<Shader>) [size: 12, children: 2]
+    6: 		m_FileID 1 (int)
+    7: 		m_PathID 10753 (SInt64)
+    8: 	m_ShaderKeywords "ETC1_EXTERNAL_ALPHA" (string)
+   12: 	m_LightmapFlags 4 (unsigned int)
+   13: 	m_EnableInstancingVariants 0 (bool)
+   14: 	m_DoubleSidedGI 0 (bool)
+   15: 	m_CustomRenderQueue -1 (int)
+   16: 	stringTagMap  (map) [size: 14, children: 1]
+   18: 		size 0 (int)
+
+   28: 	disabledShaderPasses  (vector) [size: 9, children: 1]
+   30: 		size 0 (int)
+
+   35: 	m_SavedProperties  (UnityPropertySheet) [size: 75, children: 3]
+   36: 		m_TexEnvs  (map) [size: 37, children: 1]
+   38: 			size 2 (int)
+			data  (pair) [size: 33, children: 2]
+   40: 				first "_AlphaTex" (string)
+   44: 				second  (UnityTexEnv) [size: 28, children: 3]
+   45: 					m_Texture  (PPtr<Texture>) [size: 12, children: 2]
+   46: 						m_FileID 0 (int)
+   47: 						m_PathID 0 (SInt64)
+   48: 					m_Scale (1 1) (Vector2f)
+   51: 					m_Offset (0 0) (Vector2f)
+			data  (pair) [size: 33, children: 2]
+   40: 				first "_MainTex" (string)
+   44: 				second  (UnityTexEnv) [size: 28, children: 3]
+   45: 					m_Texture  (PPtr<Texture>) [size: 12, children: 2]
+   46: 						m_FileID 0 (int)
+   47: 						m_PathID 0 (SInt64)
+   48: 					m_Scale (1 1) (Vector2f)
+   51: 					m_Offset (0 0) (Vector2f)
+
+   54: 		m_Floats  (map) [size: 13, children: 1]
+   56: 			size 2 (int)
+			data  (pair) [size: 9, children: 2]
+   58: 				first "PixelSnap" (string)
+   62: 				second 0 (float)
+			data  (pair) [size: 9, children: 2]
+   58: 				first "_EnableExternalAlpha" (string)
+   62: 				second 0 (float)
+
+   63: 		m_Colors  (map) [size: 25, children: 1]
+   65: 			size 3 (int)
+			data  (pair) [size: 21, children: 2]
+   67: 				first "_Color" (string)
+   71: 				second (1 1 1 1) (ColorRGBA)
+			data  (pair) [size: 21, children: 2]
+   67: 				first "_Flip" (string)
+   71: 				second (1 1 1 1) (ColorRGBA)
+			data  (pair) [size: 21, children: 2]
+   67: 				first "_RendererColor" (string)
+   71: 				second (1 1 1 1) (ColorRGBA)
+
+
+
+ID: -6502392223038849023 (ClassID: 687078895)     0: SpriteAtlas [size: 144, children: 6 pathID: 1803665409]
+    1: 	m_Name "alas1" (string)
+    5: 	m_PackedSprites  (vector) [size: 16, children: 1]
+    7: 		size 4 (int)
+		data  (PPtr<Sprite>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 8126584733284730015 (SInt64)
+		data  (PPtr<Sprite>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 3218026828048472479 (SInt64)
+		data  (PPtr<Sprite>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -5715428894275512719 (SInt64)
+		data  (PPtr<Sprite>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -6491447216620579100 (SInt64)
+
+   11: 	m_PackedSpriteNamesToIndex  (vector) [size: 9, children: 1]
+   13: 		size 4 (int)
+		data "ABundleBrowserIconY1756Basic" (string)
+		data "browser_header" (string)
+		data "browser_configure2" (string)
+		data "ABundleBrowserIconY1756Scene" (string)
+
+   18: 	m_RenderDataMap  (map) [size: 108, children: 1]
+   20: 		size 4 (int)
+		data  (pair) [size: 104, children: 2]
+   22: 			first  (pair) [size: 24, children: 2]
+   23: 				first 521ac7d05d42f41408ec95eaedef87cd (GUID)
+   28: 				second 21300000 (SInt64)
+   29: 			second  (SpriteAtlasData) [size: 80, children: 8]
+   30: 				texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   31: 					m_FileID 0 (int)
+   32: 					m_PathID -3762283467168342939 (SInt64)
+   33: 				alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   34: 					m_FileID 0 (int)
+   35: 					m_PathID 0 (SInt64)
+   36: 				textureRect  (Rectf) [size: 16, children: 4]
+   37: 					x 0 (float)
+   38: 					y 134 (float)
+   39: 					width 16 (float)
+   40: 					height 16 (float)
+   41: 				textureRectOffset (0 0) (Vector2f)
+   44: 				atlasRectOffset (0 134) (Vector2f)
+   47: 				uvTransform (100 8 100 142) (Vector4f)
+   52: 				downscaleMultiplier 1 (float)
+   53: 				settingsRaw 65 (unsigned int)
+		data  (pair) [size: 104, children: 2]
+   22: 			first  (pair) [size: 24, children: 2]
+   23: 				first e3aa429e1ebaddb41ad13211560ea5e8 (GUID)
+   28: 				second 21300000 (SInt64)
+   29: 			second  (SpriteAtlasData) [size: 80, children: 8]
+   30: 				texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   31: 					m_FileID 0 (int)
+   32: 					m_PathID -3762283467168342939 (SInt64)
+   33: 				alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   34: 					m_FileID 0 (int)
+   35: 					m_PathID 0 (SInt64)
+   36: 				textureRect  (Rectf) [size: 16, children: 4]
+   37: 					x 0.0761205 (float)
+   38: 					y 0 (float)
+   39: 					width 2038.9 (float)
+   40: 					height 826 (float)
+   41: 				textureRectOffset (0.0761205 0) (Vector2f)
+   44: 				atlasRectOffset (0 0) (Vector2f)
+   47: 				uvTransform (100 1020 100 413) (Vector4f)
+   52: 				downscaleMultiplier 1 (float)
+   53: 				settingsRaw 65 (unsigned int)
+		data  (pair) [size: 104, children: 2]
+   22: 			first  (pair) [size: 24, children: 2]
+   23: 				first 18223d49715730347b997e6682fe49e5 (GUID)
+   28: 				second 21300000 (SInt64)
+   29: 			second  (SpriteAtlasData) [size: 80, children: 8]
+   30: 				texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   31: 					m_FileID 0 (int)
+   32: 					m_PathID -3762283467168342939 (SInt64)
+   33: 				alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   34: 					m_FileID 0 (int)
+   35: 					m_PathID 0 (SInt64)
+   36: 				textureRect  (Rectf) [size: 16, children: 4]
+   37: 					x 0 (float)
+   38: 					y 830 (float)
+   39: 					width 988 (float)
+   40: 					height 96 (float)
+   41: 				textureRectOffset (0 0) (Vector2f)
+   44: 				atlasRectOffset (0 830) (Vector2f)
+   47: 				uvTransform (100 494 100 878) (Vector4f)
+   52: 				downscaleMultiplier 1 (float)
+   53: 				settingsRaw 65 (unsigned int)
+		data  (pair) [size: 104, children: 2]
+   22: 			first  (pair) [size: 24, children: 2]
+   23: 				first 63255dcf53aebf34a8b1162ee502ebe1 (GUID)
+   28: 				second 21300000 (SInt64)
+   29: 			second  (SpriteAtlasData) [size: 80, children: 8]
+   30: 				texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   31: 					m_FileID 0 (int)
+   32: 					m_PathID -3762283467168342939 (SInt64)
+   33: 				alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   34: 					m_FileID 0 (int)
+   35: 					m_PathID 0 (SInt64)
+   36: 				textureRect  (Rectf) [size: 16, children: 4]
+   37: 					x 20 (float)
+   38: 					y 134 (float)
+   39: 					width 16 (float)
+   40: 					height 16 (float)
+   41: 				textureRectOffset (0 0) (Vector2f)
+   44: 				atlasRectOffset (20 134) (Vector2f)
+   47: 				uvTransform (100 28 100 142) (Vector4f)
+   52: 				downscaleMultiplier 1 (float)
+   53: 				settingsRaw 65 (unsigned int)
+
+   54: 	m_Tag "alas1" (string)
+   58: 	m_IsVariant 0 (bool)
+
+
+ID: -6491447216620579100 (ClassID: 213)     0: Sprite [size: 411, children: 14 pathID: 1327617764]
+    1: 	m_Name "ABundleBrowserIconY1756Scene" (string)
+    5: 	m_Rect  (Rectf) [size: 16, children: 4]
+    6: 		x 0 (float)
+    7: 		y 0 (float)
+    8: 		width 16 (float)
+    9: 		height 16 (float)
+   10: 	m_Offset (0 0) (Vector2f)
+   13: 	m_Border (0 0 0 0) (Vector4f)
+   18: 	m_PixelsToUnits 100 (float)
+   19: 	m_Pivot (0.5 0.5) (Vector2f)
+   22: 	m_Extrude 1 (unsigned int)
+   23: 	m_IsPolygon 0 (bool)
+   24: 	m_RenderDataKey  (pair) [size: 24, children: 2]
+   25: 		first 63255dcf53aebf34a8b1162ee502ebe1 (GUID)
+   30: 		second 21300000 (SInt64)
+   31: 	m_AtlasTags  (vector) [size: 9, children: 1]
+   33: 		size 1 (int)
+		data "alas1" (string)
+
+   38: 	m_SpriteAtlas  (PPtr<SpriteAtlas>) [size: 12, children: 2]
+   39: 		m_FileID 0 (int)
+   40: 		m_PathID -6502392223038849023 (SInt64)
+   41: 	m_RD  (SpriteRenderData) [size: 243, children: 13]
+   42: 		texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   43: 			m_FileID 0 (int)
+   44: 			m_PathID 0 (SInt64)
+   45: 		alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   46: 			m_FileID 0 (int)
+   47: 			m_PathID 0 (SInt64)
+   48: 		secondaryTextures  (vector) [size: 21, children: 1]
+   50: 			size 0 (int)
+
+   59: 		m_SubMeshes  (vector) [size: 52, children: 1]
+   61: 			size 1 (int)
+			data  (SubMesh) [size: 48, children: 7]
+   63: 				firstByte 0 (unsigned int)
+   64: 				indexCount 6 (unsigned int)
+   65: 				topology 0 (int)
+   66: 				baseVertex 0 (unsigned int)
+   67: 				firstVertex 0 (unsigned int)
+   68: 				vertexCount 4 (unsigned int)
+   69: 				localAABB  (AABB) [size: 24, children: 2]
+   70: 					m_Center (0 0 0) (Vector3f)
+   74: 					m_Extent (0 0 0) (Vector3f)
+
+   78: 		m_IndexBuffer  (vector) [size: 5, children: 1]
+   80: 			size 12 (int)
+			data (UInt8) #0: 0 0 1 0 2 0 2 0 1 0 3 0
+   82: 		m_VertexData  (VertexData) [size: 17, children: 3]
+   83: 			m_VertexCount 4 (unsigned int)
+   84: 			m_Channels  (vector) [size: 8, children: 1]
+   86: 				size 14 (int)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 3 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 1 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 2 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+
+   93: 			size 80 (int)
+			data (UInt8) #0: 10 215 163 189 10 215 163 61 0 0 0 0 10 215 163 61 10 215 163 61 0 0 0 0 10
+			data (UInt8) #25: 215 163 189 10 215 163 189 0 0 0 0 10 215 163 61 10 215 163 189 0 0 0 0 0 0
+			data (UInt8) #50: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #75: 0 0 0 0 0
+   95: 		m_Bindpose  (vector) [size: 68, children: 1]
+   97: 			size 0 (int)
+
+  115: 		textureRect  (Rectf) [size: 16, children: 4]
+  116: 			x 0 (float)
+  117: 			y 0 (float)
+  118: 			width 16 (float)
+  119: 			height 16 (float)
+  120: 		textureRectOffset (0 0) (Vector2f)
+  123: 		atlasRectOffset (-1 -1) (Vector2f)
+  126: 		settingsRaw 64 (unsigned int)
+  127: 		uvTransform (100 8 100 8) (Vector4f)
+  132: 		downscaleMultiplier 1 (float)
+  133: 	m_PhysicsShape  (vector) [size: 16, children: 1]
+  135: 		size 1 (int)
+		data  (vector) [size: 12, children: 1]
+  138: 			size 7 (int)
+			data (-0.04 0.08) (Vector2f)
+			data (-0.08 0.06) (Vector2f)
+			data (-0.08 -0.04) (Vector2f)
+			data (-0.04 -0.08) (Vector2f)
+			data (0.03 -0.08) (Vector2f)
+			data (0.08 -0.06) (Vector2f)
+			data (0.08 0.08) (Vector2f)
+
+
+  142: 	m_Bones  (vector) [size: 45, children: 1]
+  144: 		size 0 (int)
+
+
+
+ID: -5715428894275512719 (ClassID: 213)     0: Sprite [size: 411, children: 14 pathID: -910928271]
+    1: 	m_Name "browser_configure2" (string)
+    5: 	m_Rect  (Rectf) [size: 16, children: 4]
+    6: 		x 0 (float)
+    7: 		y 0 (float)
+    8: 		width 2040 (float)
+    9: 		height 826 (float)
+   10: 	m_Offset (0 0) (Vector2f)
+   13: 	m_Border (0 0 0 0) (Vector4f)
+   18: 	m_PixelsToUnits 100 (float)
+   19: 	m_Pivot (0.5 0.5) (Vector2f)
+   22: 	m_Extrude 1 (unsigned int)
+   23: 	m_IsPolygon 0 (bool)
+   24: 	m_RenderDataKey  (pair) [size: 24, children: 2]
+   25: 		first e3aa429e1ebaddb41ad13211560ea5e8 (GUID)
+   30: 		second 21300000 (SInt64)
+   31: 	m_AtlasTags  (vector) [size: 9, children: 1]
+   33: 		size 1 (int)
+		data "alas1" (string)
+
+   38: 	m_SpriteAtlas  (PPtr<SpriteAtlas>) [size: 12, children: 2]
+   39: 		m_FileID 0 (int)
+   40: 		m_PathID -6502392223038849023 (SInt64)
+   41: 	m_RD  (SpriteRenderData) [size: 243, children: 13]
+   42: 		texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   43: 			m_FileID 0 (int)
+   44: 			m_PathID 0 (SInt64)
+   45: 		alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   46: 			m_FileID 0 (int)
+   47: 			m_PathID 0 (SInt64)
+   48: 		secondaryTextures  (vector) [size: 21, children: 1]
+   50: 			size 0 (int)
+
+   59: 		m_SubMeshes  (vector) [size: 52, children: 1]
+   61: 			size 1 (int)
+			data  (SubMesh) [size: 48, children: 7]
+   63: 				firstByte 0 (unsigned int)
+   64: 				indexCount 276 (unsigned int)
+   65: 				topology 0 (int)
+   66: 				baseVertex 0 (unsigned int)
+   67: 				firstVertex 0 (unsigned int)
+   68: 				vertexCount 94 (unsigned int)
+   69: 				localAABB  (AABB) [size: 24, children: 2]
+   70: 					m_Center (0 0 0) (Vector3f)
+   74: 					m_Extent (0 0 0) (Vector3f)
+
+   78: 		m_IndexBuffer  (vector) [size: 5, children: 1]
+   80: 			size 552 (int)
+			data (UInt8) #0: 93 0 86 0 85 0 92 0 46 0 90 0 47 0 90 0 46 0 65 0 90 0 47 0 66
+			data (UInt8) #25: 0 90 0 65 0 91 0 90 0 66 0 89 0 90 0 91 0 23 0 90 0 89 0 22 0
+			data (UInt8) #50: 23 0 89 0 43 0 22 0 89 0 42 0 43 0 89 0 88 0 87 0 86 0 84 0 86
+			data (UInt8) #75: 0 87 0 85 0 86 0 84 0 82 0 85 0 84 0 83 0 82 0 84 0 81 0 82 0
+			data (UInt8) #100: 83 0 79 0 82 0 81 0 80 0 79 0 81 0 78 0 79 0 80 0 75 0 79 0 78
+			data (UInt8) #125: 0 77 0 75 0 78 0 76 0 75 0 77 0 74 0 75 0 76 0 73 0 75 0 74 0
+			data (UInt8) #150: 72 0 73 0 74 0 71 0 73 0 72 0 70 0 71 0 72 0 69 0 71 0 70 0 68
+			data (UInt8) #175: 0 69 0 70 0 67 0 69 0 68 0 64 0 67 0 68 0 65 0 67 0 64 0 66 0
+			data (UInt8) #200: 65 0 64 0 63 0 62 0 59 0 61 0 59 0 62 0 60 0 59 0 61 0 58 0 59
+			data (UInt8) #225: 0 60 0 57 0 59 0 58 0 56 0 57 0 58 0 53 0 57 0 56 0 55 0 53 0
+			data (UInt8) #250: 56 0 54 0 53 0 55 0 52 0 53 0 54 0 51 0 53 0 52 0 50 0 51 0 52
+			data (UInt8) #275: 0 49 0 51 0 50 0 48 0 49 0 50 0 46 0 49 0 48 0 45 0 46 0 48 0
+			data (UInt8) #300: 47 0 46 0 45 0 25 0 26 0 44 0 43 0 42 0 41 0 40 0 41 0 42 0 39
+			data (UInt8) #325: 0 41 0 40 0 38 0 39 0 40 0 36 0 39 0 38 0 37 0 36 0 38 0 35 0
+			data (UInt8) #350: 36 0 37 0 33 0 36 0 35 0 34 0 33 0 35 0 32 0 33 0 34 0 30 0 33
+			data (UInt8) #375: 0 32 0 3 0 30 0 32 0 29 0 30 0 3 0 31 0 30 0 29 0 28 0 29 0
+			data (UInt8) #400: 3 0 27 0 28 0 3 0 1 0 27 0 3 0 25 0 27 0 1 0 24 0 25 0 1
+			data (UInt8) #425: 0 26 0 25 0 24 0 23 0 22 0 19 0 21 0 19 0 22 0 20 0 19 0 21 0
+			data (UInt8) #450: 17 0 19 0 20 0 18 0 19 0 17 0 16 0 18 0 17 0 14 0 16 0 17 0 15
+			data (UInt8) #475: 0 16 0 14 0 13 0 15 0 14 0 5 0 13 0 14 0 11 0 13 0 5 0 6 0
+			data (UInt8) #500: 11 0 5 0 10 0 11 0 6 0 8 0 11 0 10 0 12 0 11 0 8 0 10 0 7
+			data (UInt8) #525: 0 8 0 9 0 8 0 7 0 6 0 5 0 4 0 3 0 0 0 1 0 2 0 1 0
+			data (UInt8) #550: 0 0
+   82: 		m_VertexData  (VertexData) [size: 17, children: 3]
+   83: 			m_VertexCount 94 (unsigned int)
+   84: 			m_Channels  (vector) [size: 8, children: 1]
+   86: 				size 14 (int)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 3 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 1 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 2 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+
+   93: 			size 1888 (int)
+			data (UInt8) #0: 195 245 32 65 92 143 66 62 0 0 0 0 195 245 32 65 154 153 25 62 0 0 0 0 184
+			data (UInt8) #25: 30 33 65 10 215 35 62 0 0 0 0 215 163 32 65 92 143 66 62 0 0 0 0 113 61
+			data (UInt8) #50: 34 65 236 81 184 191 0 0 0 0 133 235 33 65 143 194 181 191 0 0 0 0 113 61 34
+			data (UInt8) #75: 65 154 153 185 191 0 0 0 0 61 10 35 65 10 215 195 191 0 0 0 0 82 184 34 65
+			data (UInt8) #100: 41 92 31 192 0 0 0 0 61 10 35 65 123 20 30 192 0 0 0 0 92 143 34 65 72
+			data (UInt8) #125: 225 186 191 0 0 0 0 92 143 34 65 133 235 33 192 0 0 0 0 72 225 34 65 215 163
+			data (UInt8) #150: 32 192 0 0 0 0 143 194 33 65 225 122 36 192 0 0 0 0 154 153 33 65 143 194 181
+			data (UInt8) #175: 191 0 0 0 0 143 194 33 65 143 194 37 192 0 0 0 0 174 71 33 65 102 102 38 192
+			data (UInt8) #200: 0 0 0 0 184 30 33 65 133 235 177 191 0 0 0 0 184 30 33 65 143 194 37 192 0
+			data (UInt8) #225: 0 0 0 205 204 32 65 61 10 39 192 0 0 0 0 225 122 32 65 133 235 177 191 0 0
+			data (UInt8) #250: 0 0 236 81 32 65 215 163 176 191 0 0 0 0 154 153 241 64 215 163 176 191 0 0 0
+			data (UInt8) #275: 0 154 153 241 64 61 10 39 192 0 0 0 0 174 71 33 65 184 30 5 62 0 0 0 0
+			data (UInt8) #300: 184 30 33 65 133 235 81 191 0 0 0 0 174 71 33 65 184 30 69 191 0 0 0 0 184
+			data (UInt8) #325: 30 33 65 154 153 89 191 0 0 0 0 215 163 32 65 174 71 97 191 0 0 0 0 225 122
+			data (UInt8) #350: 32 65 174 71 97 191 0 0 0 0 246 40 32 65 31 133 107 191 0 0 0 0 225 122 32
+			data (UInt8) #375: 65 102 102 102 191 0 0 0 0 0 0 32 65 143 194 117 62 0 0 0 0 10 215 31 65
+			data (UInt8) #400: 31 133 107 191 0 0 0 0 20 174 31 65 184 30 133 62 0 0 0 0 41 92 31 65 0
+			data (UInt8) #425: 0 128 62 0 0 0 0 41 92 31 65 51 51 115 191 0 0 0 0 61 10 31 65 113 61
+			data (UInt8) #450: 138 62 0 0 0 0 82 184 30 65 113 61 138 62 0 0 0 0 82 184 30 65 51 51 115
+			data (UInt8) #475: 191 0 0 0 0 92 143 30 65 41 92 143 62 0 0 0 0 92 143 30 65 143 194 117 191
+			data (UInt8) #500: 0 0 0 0 154 153 241 64 41 92 143 62 0 0 0 0 154 153 241 64 143 194 117 191 0
+			data (UInt8) #525: 0 0 0 164 112 33 65 20 174 71 191 0 0 0 0 225 122 32 193 143 194 53 192 0 0
+			data (UInt8) #550: 0 0 205 204 212 192 174 71 129 192 0 0 0 0 205 204 212 192 143 194 53 192 0 0 0
+			data (UInt8) #575: 0 215 163 32 193 102 102 54 192 0 0 0 0 195 245 32 193 174 71 129 192 0 0 0 0
+			data (UInt8) #600: 174 71 33 193 102 102 54 192 0 0 0 0 164 112 33 193 215 163 128 192 0 0 0 0 143
+			data (UInt8) #625: 194 33 193 236 81 56 192 0 0 0 0 133 235 33 193 236 81 128 192 0 0 0 0 123 20
+			data (UInt8) #650: 34 193 236 81 56 192 0 0 0 0 102 102 34 193 154 153 57 192 0 0 0 0 102 102 34
+			data (UInt8) #675: 193 113 61 58 192 0 0 0 0 82 184 34 193 164 112 125 192 0 0 0 0 72 225 34 193
+			data (UInt8) #700: 72 225 58 192 0 0 0 0 72 225 34 193 31 133 123 192 0 0 0 0 61 10 35 193 205
+			data (UInt8) #725: 204 60 192 0 0 0 0 61 10 35 193 82 184 62 192 0 0 0 0 51 51 35 193 41 92
+			data (UInt8) #750: 63 192 0 0 0 0 51 51 35 193 154 153 121 192 0 0 0 0 225 122 28 193 10 215 35
+			data (UInt8) #775: 63 0 0 0 0 205 204 212 192 31 133 43 191 0 0 0 0 205 204 212 192 10 215 35 63
+			data (UInt8) #800: 0 0 0 0 215 163 28 193 31 133 43 191 0 0 0 0 205 204 28 193 102 102 38 63 0
+			data (UInt8) #825: 0 0 0 184 30 29 193 102 102 38 191 0 0 0 0 174 71 29 193 174 71 33 63 0 0
+			data (UInt8) #850: 0 0 174 71 29 193 195 245 40 191 0 0 0 0 164 112 29 193 82 184 30 63 0 0 0
+			data (UInt8) #875: 0 164 112 29 193 195 245 40 191 0 0 0 0 133 235 29 193 82 184 30 63 0 0 0 0
+			data (UInt8) #900: 123 20 30 193 82 184 30 191 0 0 0 0 113 61 30 193 246 40 28 63 0 0 0 0 102
+			data (UInt8) #925: 102 30 193 61 10 23 63 0 0 0 0 92 143 30 193 61 10 23 63 0 0 0 0 92 143
+			data (UInt8) #950: 30 193 82 184 30 191 0 0 0 0 72 225 30 193 133 235 17 63 0 0 0 0 72 225 30
+			data (UInt8) #975: 193 205 204 12 63 0 0 0 0 61 10 31 193 41 92 15 191 0 0 0 0 41 92 31 193
+			data (UInt8) #1000: 184 30 5 63 0 0 0 0 41 92 31 193 72 225 250 62 0 0 0 0 41 92 31 193 205
+			data (UInt8) #1025: 204 12 191 0 0 0 0 31 133 31 193 72 225 250 190 0 0 0 0 20 174 31 193 31 133
+			data (UInt8) #1050: 235 62 0 0 0 0 20 174 31 193 143 194 245 190 0 0 0 0 154 153 241 64 246 40 132
+			data (UInt8) #1075: 64 0 0 0 0 154 153 241 64 246 40 132 192 0 0 0 0 205 204 212 192 246 40 132 64
+			data (UInt8) #1100: 0 0 0 0 205 204 212 192 246 40 132 192 0 0 0 0 31 133 31 193 20 174 7 191 0
+			data (UInt8) #1125: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1150: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1175: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1200: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1225: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1250: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1275: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1300: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1325: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1350: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1375: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1400: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1425: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1450: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1475: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1500: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1525: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1550: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1575: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1600: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1625: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1650: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1675: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1700: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1725: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1750: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1775: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1800: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1825: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1850: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #1875: 0 0 0 0 0 0 0 0 0 0 0 0 0
+   95: 		m_Bindpose  (vector) [size: 68, children: 1]
+   97: 			size 0 (int)
+
+  115: 		textureRect  (Rectf) [size: 16, children: 4]
+  116: 			x 0.0761205 (float)
+  117: 			y 0 (float)
+  118: 			width 2038.9 (float)
+  119: 			height 826 (float)
+  120: 		textureRectOffset (0.0761205 0) (Vector2f)
+  123: 		atlasRectOffset (-1 -1) (Vector2f)
+  126: 		settingsRaw 64 (unsigned int)
+  127: 		uvTransform (100 1020 100 413) (Vector4f)
+  132: 		downscaleMultiplier 1 (float)
+  133: 	m_PhysicsShape  (vector) [size: 16, children: 1]
+  135: 		size 1 (int)
+		data  (vector) [size: 12, children: 1]
+  138: 			size 18 (int)
+			data (10.11 0.15) (Vector2f)
+			data (9.91 0.31) (Vector2f)
+			data (7.54 0.27) (Vector2f)
+			data (7.54 4.13) (Vector2f)
+			data (-6.64 4.13) (Vector2f)
+			data (-10.1 0.49) (Vector2f)
+			data (-9.95 -0.68) (Vector2f)
+			data (-6.64 -0.66) (Vector2f)
+			data (-6.64 -2.85) (Vector2f)
+			data (-10.04 -2.83) (Vector2f)
+			data (-10.2 -2.92) (Vector2f)
+			data (-10.2 -3.89) (Vector2f)
+			data (-10.12 -4.04) (Vector2f)
+			data (-7.69 -4.13) (Vector2f)
+			data (7.54 -4.13) (Vector2f)
+			data (7.8 -2.87) (Vector2f)
+			data (10.19 -2.62) (Vector2f)
+			data (10.19 -0.78) (Vector2f)
+
+
+  142: 	m_Bones  (vector) [size: 45, children: 1]
+  144: 		size 0 (int)
+
+
+
+ID: -3762283467168342939 (ClassID: 28)     0: Texture2D [size: 96, children: 20 pathID: -1155851163]
+    1: 	m_Name "sactx-2048x1024-DXT5-alas1-9ab742b3" (string)
+    5: 	m_ForcedFallbackFormat 4 (int)
+    6: 	m_DownscaleFallback 0 (bool)
+    7: 	m_Width 2048 (int)
+    8: 	m_Height 1024 (int)
+    9: 	m_CompleteImageSize 2097152 (int)
+   10: 	m_TextureFormat 12 (int)
+   11: 	m_MipCount 1 (int)
+   12: 	m_IsReadable 0 (bool)
+   13: 	m_IgnoreMasterTextureLimit 0 (bool)
+   14: 	m_IsPreProcessed 0 (bool)
+   15: 	m_StreamingMipmaps 0 (bool)
+   16: 	m_StreamingMipmapsPriority 0 (int)
+   17: 	m_ImageCount 1 (int)
+   18: 	m_TextureDimension 2 (int)
+   19: 	m_TextureSettings  (GLTextureSettings) [size: 24, children: 6]
+   20: 		m_FilterMode 1 (int)
+   21: 		m_Aniso 1 (int)
+   22: 		m_MipBias 0 (float)
+   23: 		m_WrapU 1 (int)
+   24: 		m_WrapV 1 (int)
+   25: 		m_WrapW 1 (int)
+   26: 	m_LightmapFormat 0 (int)
+   27: 	m_ColorSpace 1 (int)
+   29: 	size 0 (int)
+
+   31: 	m_StreamData  (StreamingInfo) [size: 13, children: 3]
+   32: 		offset 0 (unsigned int)
+   33: 		size 2097152 (unsigned int)
+   34: 		path "archive:/CAB-54b41c79bf744d6c7776abd3436c9f71/CAB-54b41c79bf744d6c7776abd3436c9f71.resS" (string)
+
+
+ID: -1875828694963270004 (ClassID: 4)     0: Transform [size: 80, children: 6 pathID: -1858417012]
+    1: 	m_GameObject  (PPtr<GameObject>) [size: 12, children: 2]
+    2: 		m_FileID 0 (int)
+    3: 		m_PathID 8782070041052228555 (SInt64)
+    4: 	m_LocalRotation  (Quaternionf) [size: 16, children: 4]
+    5: 		x 0 (float)
+    6: 		y 0 (float)
+    7: 		z 0 (float)
+    8: 		w 1 (float)
+    9: 	m_LocalPosition (0 4.72 0) (Vector3f)
+   13: 	m_LocalScale (1 1 1) (Vector3f)
+   17: 	m_Children  (vector) [size: 16, children: 1]
+   19: 		size 2 (int)
+		data  (PPtr<Transform>) [size: 12, children: 2]
+   21: 			m_FileID 0 (int)
+   22: 			m_PathID 5249400022692697794 (SInt64)
+		data  (PPtr<Transform>) [size: 12, children: 2]
+   21: 			m_FileID 0 (int)
+   22: 			m_PathID 469286307923488156 (SInt64)
+
+   23: 	m_Father  (PPtr<Transform>) [size: 12, children: 2]
+   24: 		m_FileID 0 (int)
+   25: 		m_PathID 0 (SInt64)
+
+
+ID: -1553768539510970383 (ClassID: 1)     0: GameObject [size: 28, children: 5 pathID: -616208399]
+    1: 	m_Component  (vector) [size: 16, children: 1]
+    3: 		size 2 (int)
+		data  (ComponentPair) [size: 12, children: 1]
+    5: 			component  (PPtr<Component>) [size: 12, children: 2]
+    6: 				m_FileID 0 (int)
+    7: 				m_PathID 469286307923488156 (SInt64)
+		data  (ComponentPair) [size: 12, children: 1]
+    5: 			component  (PPtr<Component>) [size: 12, children: 2]
+    6: 				m_FileID 0 (int)
+    7: 				m_PathID -551940664278425546 (SInt64)
+
+    8: 	m_Layer 0 (unsigned int)
+    9: 	m_Name "ABundleBrowserIconY1756Basic" (string)
+   13: 	m_Tag 0 (UInt16)
+   14: 	m_IsActive 1 (bool)
+
+
+ID: -551940664278425546 (ClassID: 212)     0: SpriteRenderer [size: 187, children: 34 pathID: -526950346]
+    1: 	m_GameObject  (PPtr<GameObject>) [size: 12, children: 2]
+    2: 		m_FileID 0 (int)
+    3: 		m_PathID -1553768539510970383 (SInt64)
+    4: 	m_Enabled 1 (bool)
+    5: 	m_CastShadows 0 (UInt8)
+    6: 	m_ReceiveShadows 0 (UInt8)
+    7: 	m_DynamicOccludee 1 (UInt8)
+    8: 	m_MotionVectors 1 (UInt8)
+    9: 	m_LightProbeUsage 1 (UInt8)
+   10: 	m_ReflectionProbeUsage 1 (UInt8)
+   11: 	m_RayTracingMode 0 (UInt8)
+   12: 	m_RenderingLayerMask 1 (unsigned int)
+   13: 	m_RendererPriority 0 (int)
+   14: 	m_LightmapIndex 65535 (UInt16)
+   15: 	m_LightmapIndexDynamic 65535 (UInt16)
+   16: 	m_LightmapTilingOffset (1 1 0 0) (Vector4f)
+   21: 	m_LightmapTilingOffsetDynamic (1 1 0 0) (Vector4f)
+   26: 	m_Materials  (vector) [size: 16, children: 1]
+   28: 		size 1 (int)
+		data  (PPtr<Material>) [size: 12, children: 2]
+   30: 			m_FileID 0 (int)
+   31: 			m_PathID -6562632805628259368 (SInt64)
+
+   32: 	m_StaticBatchInfo  (StaticBatchInfo) [size: 4, children: 2]
+   33: 		firstSubMesh 0 (UInt16)
+   34: 		subMeshCount 0 (UInt16)
+   35: 	m_StaticBatchRoot  (PPtr<Transform>) [size: 12, children: 2]
+   36: 		m_FileID 0 (int)
+   37: 		m_PathID 0 (SInt64)
+   38: 	m_ProbeAnchor  (PPtr<Transform>) [size: 12, children: 2]
+   39: 		m_FileID 0 (int)
+   40: 		m_PathID 0 (SInt64)
+   41: 	m_LightProbeVolumeOverride  (PPtr<GameObject>) [size: 12, children: 2]
+   42: 		m_FileID 0 (int)
+   43: 		m_PathID 0 (SInt64)
+   44: 	m_SortingLayerID 0 (int)
+   45: 	m_SortingLayer 0 (SInt16)
+   46: 	m_SortingOrder 0 (SInt16)
+   47: 	m_Sprite  (PPtr<Sprite>) [size: 12, children: 2]
+   48: 		m_FileID 0 (int)
+   49: 		m_PathID 8126584733284730015 (SInt64)
+   50: 	m_Color (1 1 1 1) (ColorRGBA)
+   55: 	m_FlipX 0 (bool)
+   56: 	m_FlipY 0 (bool)
+   57: 	m_DrawMode 0 (int)
+   58: 	m_Size (0.16 0.16) (Vector2f)
+   61: 	m_AdaptiveModeThreshold 0.5 (float)
+   62: 	m_SpriteTileMode 0 (int)
+   63: 	m_WasSpriteAssigned 1 (bool)
+   64: 	m_MaskInteraction 0 (int)
+   65: 	m_SpriteSortPoint 0 (int)
+
+
+ID: 1 (ClassID: 142)     0: AssetBundle [size: 111, children: 11 pathID: 1]
+    1: 	m_Name "prefab2" (string)
+    5: 	m_PreloadTable  (vector) [size: 16, children: 1]
+    7: 		size 22 (int)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -6502392223038849023 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -6491447216620579100 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -5715428894275512719 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -3762283467168342939 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 3218026828048472479 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 8126584733284730015 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 1 (int)
+   10: 			m_PathID 10753 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -6562632805628259368 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -6502392223038849023 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -6491447216620579100 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -5715428894275512719 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -3762283467168342939 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -1875828694963270004 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -1553768539510970383 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID -551940664278425546 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 469286307923488156 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 992169088000970301 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 1047794853107473334 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 3218026828048472479 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 5249400022692697794 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 8126584733284730015 (SInt64)
+		data  (PPtr<Object>) [size: 12, children: 2]
+    9: 			m_FileID 0 (int)
+   10: 			m_PathID 8782070041052228555 (SInt64)
+
+   11: 	m_Container  (map) [size: 29, children: 1]
+   13: 		size 2 (int)
+		data  (pair) [size: 25, children: 2]
+   15: 			first "assets/editor/assetbundles-browser/abtest/alas1.spriteatlas" (string)
+   19: 			second  (AssetInfo) [size: 20, children: 3]
+   20: 				preloadIndex 0 (int)
+   21: 				preloadSize 6 (int)
+   22: 				asset  (PPtr<Object>) [size: 12, children: 2]
+   23: 					m_FileID 0 (int)
+   24: 					m_PathID -6502392223038849023 (SInt64)
+		data  (pair) [size: 25, children: 2]
+   15: 			first "assets/editor/assetbundles-browser/abtest/prefab2.prefab" (string)
+   19: 			second  (AssetInfo) [size: 20, children: 3]
+   20: 				preloadIndex 6 (int)
+   21: 				preloadSize 16 (int)
+   22: 				asset  (PPtr<Object>) [size: 12, children: 2]
+   23: 					m_FileID 0 (int)
+   24: 					m_PathID 8782070041052228555 (SInt64)
+
+   25: 	m_MainAsset  (AssetInfo) [size: 20, children: 3]
+   26: 		preloadIndex 0 (int)
+   27: 		preloadSize 0 (int)
+   28: 		asset  (PPtr<Object>) [size: 12, children: 2]
+   29: 			m_FileID 0 (int)
+   30: 			m_PathID 0 (SInt64)
+   31: 	m_RuntimeCompatibility 1 (unsigned int)
+   32: 	m_AssetBundleName "prefab2" (string)
+   36: 	m_Dependencies  (vector) [size: 9, children: 1]
+   38: 		size 0 (int)
+
+   43: 	m_IsStreamedSceneAssetBundle 0 (bool)
+   44: 	m_ExplicitDataLayout 0 (int)
+   45: 	m_PathFlags 7 (int)
+   46: 	m_SceneHashes  (map) [size: 14, children: 1]
+   48: 		size 0 (int)
+
+
+
+ID: 469286307923488156 (ClassID: 4)     0: Transform [size: 80, children: 6 pathID: 565964188]
+    1: 	m_GameObject  (PPtr<GameObject>) [size: 12, children: 2]
+    2: 		m_FileID 0 (int)
+    3: 		m_PathID -1553768539510970383 (SInt64)
+    4: 	m_LocalRotation  (Quaternionf) [size: 16, children: 4]
+    5: 		x -0 (float)
+    6: 		y -0 (float)
+    7: 		z -0 (float)
+    8: 		w 1 (float)
+    9: 	m_LocalPosition (0 -4.72 0) (Vector3f)
+   13: 	m_LocalScale (1 1 1) (Vector3f)
+   17: 	m_Children  (vector) [size: 16, children: 1]
+   19: 		size 0 (int)
+
+   23: 	m_Father  (PPtr<Transform>) [size: 12, children: 2]
+   24: 		m_FileID 0 (int)
+   25: 		m_PathID -1875828694963270004 (SInt64)
+
+
+ID: 992169088000970301 (ClassID: 1)     0: GameObject [size: 28, children: 5 pathID: 1600900669]
+    1: 	m_Component  (vector) [size: 16, children: 1]
+    3: 		size 2 (int)
+		data  (ComponentPair) [size: 12, children: 1]
+    5: 			component  (PPtr<Component>) [size: 12, children: 2]
+    6: 				m_FileID 0 (int)
+    7: 				m_PathID 5249400022692697794 (SInt64)
+		data  (ComponentPair) [size: 12, children: 1]
+    5: 			component  (PPtr<Component>) [size: 12, children: 2]
+    6: 				m_FileID 0 (int)
+    7: 				m_PathID 1047794853107473334 (SInt64)
+
+    8: 	m_Layer 0 (unsigned int)
+    9: 	m_Name "browser_configure2" (string)
+   13: 	m_Tag 0 (UInt16)
+   14: 	m_IsActive 1 (bool)
+
+
+ID: 1047794853107473334 (ClassID: 212)     0: SpriteRenderer [size: 187, children: 34 pathID: 284433334]
+    1: 	m_GameObject  (PPtr<GameObject>) [size: 12, children: 2]
+    2: 		m_FileID 0 (int)
+    3: 		m_PathID 992169088000970301 (SInt64)
+    4: 	m_Enabled 1 (bool)
+    5: 	m_CastShadows 0 (UInt8)
+    6: 	m_ReceiveShadows 0 (UInt8)
+    7: 	m_DynamicOccludee 1 (UInt8)
+    8: 	m_MotionVectors 1 (UInt8)
+    9: 	m_LightProbeUsage 1 (UInt8)
+   10: 	m_ReflectionProbeUsage 1 (UInt8)
+   11: 	m_RayTracingMode 0 (UInt8)
+   12: 	m_RenderingLayerMask 1 (unsigned int)
+   13: 	m_RendererPriority 0 (int)
+   14: 	m_LightmapIndex 65535 (UInt16)
+   15: 	m_LightmapIndexDynamic 65535 (UInt16)
+   16: 	m_LightmapTilingOffset (1 1 0 0) (Vector4f)
+   21: 	m_LightmapTilingOffsetDynamic (1 1 0 0) (Vector4f)
+   26: 	m_Materials  (vector) [size: 16, children: 1]
+   28: 		size 1 (int)
+		data  (PPtr<Material>) [size: 12, children: 2]
+   30: 			m_FileID 0 (int)
+   31: 			m_PathID -6562632805628259368 (SInt64)
+
+   32: 	m_StaticBatchInfo  (StaticBatchInfo) [size: 4, children: 2]
+   33: 		firstSubMesh 0 (UInt16)
+   34: 		subMeshCount 0 (UInt16)
+   35: 	m_StaticBatchRoot  (PPtr<Transform>) [size: 12, children: 2]
+   36: 		m_FileID 0 (int)
+   37: 		m_PathID 0 (SInt64)
+   38: 	m_ProbeAnchor  (PPtr<Transform>) [size: 12, children: 2]
+   39: 		m_FileID 0 (int)
+   40: 		m_PathID 0 (SInt64)
+   41: 	m_LightProbeVolumeOverride  (PPtr<GameObject>) [size: 12, children: 2]
+   42: 		m_FileID 0 (int)
+   43: 		m_PathID 0 (SInt64)
+   44: 	m_SortingLayerID 0 (int)
+   45: 	m_SortingLayer 0 (SInt16)
+   46: 	m_SortingOrder 0 (SInt16)
+   47: 	m_Sprite  (PPtr<Sprite>) [size: 12, children: 2]
+   48: 		m_FileID 0 (int)
+   49: 		m_PathID -5715428894275512719 (SInt64)
+   50: 	m_Color (1 1 1 1) (ColorRGBA)
+   55: 	m_FlipX 0 (bool)
+   56: 	m_FlipY 0 (bool)
+   57: 	m_DrawMode 0 (int)
+   58: 	m_Size (20.4 8.26) (Vector2f)
+   61: 	m_AdaptiveModeThreshold 0.5 (float)
+   62: 	m_SpriteTileMode 0 (int)
+   63: 	m_WasSpriteAssigned 1 (bool)
+   64: 	m_MaskInteraction 0 (int)
+   65: 	m_SpriteSortPoint 0 (int)
+
+
+ID: 3218026828048472479 (ClassID: 213)     0: Sprite [size: 411, children: 14 pathID: -1417569889]
+    1: 	m_Name "browser_header" (string)
+    5: 	m_Rect  (Rectf) [size: 16, children: 4]
+    6: 		x 0 (float)
+    7: 		y 0 (float)
+    8: 		width 988 (float)
+    9: 		height 96 (float)
+   10: 	m_Offset (0 0) (Vector2f)
+   13: 	m_Border (0 0 0 0) (Vector4f)
+   18: 	m_PixelsToUnits 100 (float)
+   19: 	m_Pivot (0.5 0.5) (Vector2f)
+   22: 	m_Extrude 1 (unsigned int)
+   23: 	m_IsPolygon 0 (bool)
+   24: 	m_RenderDataKey  (pair) [size: 24, children: 2]
+   25: 		first 18223d49715730347b997e6682fe49e5 (GUID)
+   30: 		second 21300000 (SInt64)
+   31: 	m_AtlasTags  (vector) [size: 9, children: 1]
+   33: 		size 1 (int)
+		data "alas1" (string)
+
+   38: 	m_SpriteAtlas  (PPtr<SpriteAtlas>) [size: 12, children: 2]
+   39: 		m_FileID 0 (int)
+   40: 		m_PathID -6502392223038849023 (SInt64)
+   41: 	m_RD  (SpriteRenderData) [size: 243, children: 13]
+   42: 		texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   43: 			m_FileID 0 (int)
+   44: 			m_PathID 0 (SInt64)
+   45: 		alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   46: 			m_FileID 0 (int)
+   47: 			m_PathID 0 (SInt64)
+   48: 		secondaryTextures  (vector) [size: 21, children: 1]
+   50: 			size 0 (int)
+
+   59: 		m_SubMeshes  (vector) [size: 52, children: 1]
+   61: 			size 1 (int)
+			data  (SubMesh) [size: 48, children: 7]
+   63: 				firstByte 0 (unsigned int)
+   64: 				indexCount 6 (unsigned int)
+   65: 				topology 0 (int)
+   66: 				baseVertex 0 (unsigned int)
+   67: 				firstVertex 0 (unsigned int)
+   68: 				vertexCount 4 (unsigned int)
+   69: 				localAABB  (AABB) [size: 24, children: 2]
+   70: 					m_Center (0 0 0) (Vector3f)
+   74: 					m_Extent (0 0 0) (Vector3f)
+
+   78: 		m_IndexBuffer  (vector) [size: 5, children: 1]
+   80: 			size 12 (int)
+			data (UInt8) #0: 3 0 0 0 1 0 2 0 1 0 0 0
+   82: 		m_VertexData  (VertexData) [size: 17, children: 3]
+   83: 			m_VertexCount 4 (unsigned int)
+   84: 			m_Channels  (vector) [size: 8, children: 1]
+   86: 				size 14 (int)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 3 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 1 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 2 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+
+   93: 			size 80 (int)
+			data (UInt8) #0: 123 20 158 192 143 194 245 62 0 0 0 0 123 20 158 64 143 194 245 190 0 0 0 0 123
+			data (UInt8) #25: 20 158 64 143 194 245 62 0 0 0 0 123 20 158 192 143 194 245 190 0 0 0 0 0 0
+			data (UInt8) #50: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #75: 0 0 0 0 0
+   95: 		m_Bindpose  (vector) [size: 68, children: 1]
+   97: 			size 0 (int)
+
+  115: 		textureRect  (Rectf) [size: 16, children: 4]
+  116: 			x 0 (float)
+  117: 			y 0 (float)
+  118: 			width 988 (float)
+  119: 			height 96 (float)
+  120: 		textureRectOffset (0 0) (Vector2f)
+  123: 		atlasRectOffset (-1 -1) (Vector2f)
+  126: 		settingsRaw 64 (unsigned int)
+  127: 		uvTransform (100 494 100 48) (Vector4f)
+  132: 		downscaleMultiplier 1 (float)
+  133: 	m_PhysicsShape  (vector) [size: 16, children: 1]
+  135: 		size 1 (int)
+		data  (vector) [size: 12, children: 1]
+  138: 			size 4 (int)
+			data (-4.94 0.48) (Vector2f)
+			data (-4.94 -0.48) (Vector2f)
+			data (4.94 -0.48) (Vector2f)
+			data (4.94 0.48) (Vector2f)
+
+
+  142: 	m_Bones  (vector) [size: 45, children: 1]
+  144: 		size 0 (int)
+
+
+
+ID: 5249400022692697794 (ClassID: 4)     0: Transform [size: 80, children: 6 pathID: 344364738]
+    1: 	m_GameObject  (PPtr<GameObject>) [size: 12, children: 2]
+    2: 		m_FileID 0 (int)
+    3: 		m_PathID 992169088000970301 (SInt64)
+    4: 	m_LocalRotation  (Quaternionf) [size: 16, children: 4]
+    5: 		x -0 (float)
+    6: 		y -0 (float)
+    7: 		z -0 (float)
+    8: 		w 1 (float)
+    9: 	m_LocalPosition (0 0 0) (Vector3f)
+   13: 	m_LocalScale (1 1 1) (Vector3f)
+   17: 	m_Children  (vector) [size: 16, children: 1]
+   19: 		size 0 (int)
+
+   23: 	m_Father  (PPtr<Transform>) [size: 12, children: 2]
+   24: 		m_FileID 0 (int)
+   25: 		m_PathID -1875828694963270004 (SInt64)
+
+
+ID: 8126584733284730015 (ClassID: 213)     0: Sprite [size: 411, children: 14 pathID: 680297631]
+    1: 	m_Name "ABundleBrowserIconY1756Basic" (string)
+    5: 	m_Rect  (Rectf) [size: 16, children: 4]
+    6: 		x 0 (float)
+    7: 		y 0 (float)
+    8: 		width 16 (float)
+    9: 		height 16 (float)
+   10: 	m_Offset (0 0) (Vector2f)
+   13: 	m_Border (0 0 0 0) (Vector4f)
+   18: 	m_PixelsToUnits 100 (float)
+   19: 	m_Pivot (0.5 0.5) (Vector2f)
+   22: 	m_Extrude 1 (unsigned int)
+   23: 	m_IsPolygon 0 (bool)
+   24: 	m_RenderDataKey  (pair) [size: 24, children: 2]
+   25: 		first 521ac7d05d42f41408ec95eaedef87cd (GUID)
+   30: 		second 21300000 (SInt64)
+   31: 	m_AtlasTags  (vector) [size: 9, children: 1]
+   33: 		size 1 (int)
+		data "alas1" (string)
+
+   38: 	m_SpriteAtlas  (PPtr<SpriteAtlas>) [size: 12, children: 2]
+   39: 		m_FileID 0 (int)
+   40: 		m_PathID -6502392223038849023 (SInt64)
+   41: 	m_RD  (SpriteRenderData) [size: 243, children: 13]
+   42: 		texture  (PPtr<Texture2D>) [size: 12, children: 2]
+   43: 			m_FileID 0 (int)
+   44: 			m_PathID 0 (SInt64)
+   45: 		alphaTexture  (PPtr<Texture2D>) [size: 12, children: 2]
+   46: 			m_FileID 0 (int)
+   47: 			m_PathID 0 (SInt64)
+   48: 		secondaryTextures  (vector) [size: 21, children: 1]
+   50: 			size 0 (int)
+
+   59: 		m_SubMeshes  (vector) [size: 52, children: 1]
+   61: 			size 1 (int)
+			data  (SubMesh) [size: 48, children: 7]
+   63: 				firstByte 0 (unsigned int)
+   64: 				indexCount 6 (unsigned int)
+   65: 				topology 0 (int)
+   66: 				baseVertex 0 (unsigned int)
+   67: 				firstVertex 0 (unsigned int)
+   68: 				vertexCount 4 (unsigned int)
+   69: 				localAABB  (AABB) [size: 24, children: 2]
+   70: 					m_Center (0 0 0) (Vector3f)
+   74: 					m_Extent (0 0 0) (Vector3f)
+
+   78: 		m_IndexBuffer  (vector) [size: 5, children: 1]
+   80: 			size 12 (int)
+			data (UInt8) #0: 0 0 1 0 2 0 2 0 1 0 3 0
+   82: 		m_VertexData  (VertexData) [size: 17, children: 3]
+   83: 			m_VertexCount 4 (unsigned int)
+   84: 			m_Channels  (vector) [size: 8, children: 1]
+   86: 				size 14 (int)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 3 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 1 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 2 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+				data  (ChannelInfo) [size: 4, children: 4]
+   88: 					stream 0 (UInt8)
+   89: 					offset 0 (UInt8)
+   90: 					format 0 (UInt8)
+   91: 					dimension 0 (UInt8)
+
+   93: 			size 80 (int)
+			data (UInt8) #0: 10 215 163 189 10 215 163 61 0 0 0 0 10 215 163 61 10 215 163 61 0 0 0 0 10
+			data (UInt8) #25: 215 163 189 10 215 163 189 0 0 0 0 10 215 163 61 10 215 163 189 0 0 0 0 0 0
+			data (UInt8) #50: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+			data (UInt8) #75: 0 0 0 0 0
+   95: 		m_Bindpose  (vector) [size: 68, children: 1]
+   97: 			size 0 (int)
+
+  115: 		textureRect  (Rectf) [size: 16, children: 4]
+  116: 			x 0 (float)
+  117: 			y 0 (float)
+  118: 			width 16 (float)
+  119: 			height 16 (float)
+  120: 		textureRectOffset (0 0) (Vector2f)
+  123: 		atlasRectOffset (-1 -1) (Vector2f)
+  126: 		settingsRaw 64 (unsigned int)
+  127: 		uvTransform (100 8 100 8) (Vector4f)
+  132: 		downscaleMultiplier 1 (float)
+  133: 	m_PhysicsShape  (vector) [size: 16, children: 1]
+  135: 		size 1 (int)
+		data  (vector) [size: 12, children: 1]
+  138: 			size 6 (int)
+			data (-0.08 0.05) (Vector2f)
+			data (-0.08 -0.06) (Vector2f)
+			data (-0.07 -0.08) (Vector2f)
+			data (0.08 -0.08) (Vector2f)
+			data (0.08 0.08) (Vector2f)
+			data (-0.05 0.08) (Vector2f)
+
+
+  142: 	m_Bones  (vector) [size: 45, children: 1]
+  144: 		size 0 (int)
+
+
+
+ID: 8782070041052228555 (ClassID: 1)     0: GameObject [size: 28, children: 5 pathID: 1166322635]
+    1: 	m_Component  (vector) [size: 16, children: 1]
+    3: 		size 1 (int)
+		data  (ComponentPair) [size: 12, children: 1]
+    5: 			component  (PPtr<Component>) [size: 12, children: 2]
+    6: 				m_FileID 0 (int)
+    7: 				m_PathID -1875828694963270004 (SInt64)
+
+    8: 	m_Layer 0 (unsigned int)
+    9: 	m_Name "Prefab2" (string)
+   13: 	m_Tag 0 (UInt16)
+   14: 	m_IsActive 1 (bool)
+
+
